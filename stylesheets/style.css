@@ -22,16 +22,16 @@ h2, h3 {
 
 @font-face {
   font-family: 'LondrinaOutlineRegular';
-  src: url("webfonts/LondrinaOutline-Regular-webfont.eot");
-  src: url("webfonts/LondrinaOutline-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/LondrinaOutline-Regular-webfont.woff") format("woff"), url("webfonts/LondrinaOutline-Regular-webfont.ttf") format("truetype"), url("webfonts/LondrinaOutline-Regular-webfont.svg#LondrinaOutlineRegular") format("svg");
+  src: url("../webfonts/LondrinaOutline-Regular-webfont.eot");
+  src: url("../webfonts/LondrinaOutline-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../webfonts/LondrinaOutline-Regular-webfont.woff") format("woff"), url("../webfonts/LondrinaOutline-Regular-webfont.ttf") format("truetype"), url("../webfonts/LondrinaOutline-Regular-webfont.svg#LondrinaOutlineRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'LondrinaShadowRegular';
-  src: url("/webfonts/LondrinaShadow-Regular-webfont.eot");
-  src: url("/webfonts/LondrinaShadow-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/webfonts/LondrinaShadow-Regular-webfont.woff") format("woff"), url("/webfonts/LondrinaShadow-Regular-webfont.ttf") format("truetype"), url("/webfonts/LondrinaShadow-Regular-webfont.svg#LondrinaShadowRegular") format("svg");
+  src: url("webfonts/LondrinaShadow-Regular-webfont.eot");
+  src: url("webfonts/LondrinaShadow-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("webfonts/LondrinaShadow-Regular-webfont.woff") format("woff"), url("webfonts/LondrinaShadow-Regular-webfont.ttf") format("truetype"), url("webfonts/LondrinaShadow-Regular-webfont.svg#LondrinaShadowRegular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
