@@ -1,7 +1,7 @@
 // Variables
 $blue: #181d56;
 $green: #b4cd68;
-$gray: #e5e5e3;
+$gray: #ddd;
 $red: #8b3232;
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 p, li {
-  font-family: "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
+  font-family: "SourceSansProRegular", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -33,8 +33,17 @@ h3 {
 
 }
 
+ul {
+  margin-left: 40px;
+  list-style-image: url(/images/dash.png);
+  li {
+
+  }
+}
+
 // First Section
 section.what {
+  padding-bottom: 60px;
   h3 {
     font-weight: bold;
     color: white;
@@ -47,23 +56,81 @@ section.what {
     background: white;
     padding: 50px 50px 40px;
     // min-height: 400px;
-    margin-bottom: 30px;
     box-shadow: 0px 0px 10px #bbb;
   }
 }
-div.you-we {
-  background: $gray;
-  padding: 30px 0;
-  section {
-    h3 {
-      color: white;
+div.you-we-bg {
+    background: $gray;
+  div.you-we {
+    padding: 60px 0;
+    section {
+      h3 {
+        color: black;
+        background: white;
+        padding: 20px 0;
+      }
+      p {
+        text-align: center;
+        padding: 10px;
+      }
+      ul {
+        padding-right: 10px;
+      }
     }
-    ul {
-      margin-left: 40px;
+  }
+}
+section.who {
+  background: white;
+  padding: 0 0 30px 0;
+  margin: 60px 0;
+  box-shadow: 0px 0px 10px #bbb;
+  h3 {
+    color: white;
+    background: black;
+    padding: 20px 0;
+    margin-top: 0;
+  }
+  ul {
+    margin-left: 80px;
+    li {
+      list-style-image: url(/images/dash.png);
+      padding: 20px 40px 0 0;
+    }
+  }
+}
+div.why-bg {
+  background: $gray;
+  div.why {
+    padding: 60px 0;
+    section.why {
+      h3 {
+        background: white;
+        padding: 20px 0;
+        margin-top: 0;
+      }
+      p {
+        padding: 10px 30px;
+      }
     }
   }
 }
 
+footer {
+  background: black;
+  padding: 60px 0;
+  h2 {
+    color: white;
+    font-size: 72px;
+  }
+  p {
+    text-align:center;
+    color: white;
+    font-size: 36px;
+    a {
+      color: $green;
+    }
+  }
+}
 
 @font-face {
     font-family: 'SourceSansProSemiboldItalic';
