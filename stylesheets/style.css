@@ -35,7 +35,7 @@ h3 {
 /* line 36, ../sass/style.scss */
 ul {
   margin-left: 40px;
-  list-style-image: url(images/dash.png);
+  list-style-image: url(../images/dash.png);
 }
 
 /* line 45, ../sass/style.scss */
