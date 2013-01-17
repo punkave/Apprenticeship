@@ -102,7 +102,7 @@ section.who ul {
 }
 /* line 95, ../sass/style.scss */
 section.who ul li {
-  list-style-image: url(/images/dash.png);
+  list-style-image: url(../images/dash.png);
   padding: 20px 40px 0 0;
 }
 
