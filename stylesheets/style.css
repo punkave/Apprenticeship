@@ -28,21 +28,24 @@ h2 span {
 
 /* line 30, ../sass/style.scss */
 h3 {
-  font-family: "NeoRetroDrawFill";
+  font-family: "franchiseregular";
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
+  letter-spacing: 2px;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 ul {
   margin-left: 40px;
   list-style-image: url(../images/dash.png);
 }
 
-/* line 45, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 section.what {
   padding-bottom: 60px;
 }
-/* line 47, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 section.what h3 {
   font-weight: bold;
   color: white;
@@ -51,112 +54,118 @@ section.what h3 {
   margin: 0;
   box-shadow: 0px 0px 10px #000;
 }
-/* line 55, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 section.what .box {
   background: white;
   padding: 50px 50px 40px;
   box-shadow: 0px 0px 10px #bbb;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 div.you-we-bg {
   background: #dddddd;
 }
-/* line 64, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 div.you-we-bg div.you-we {
   padding: 60px 0;
 }
-/* line 67, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 div.you-we-bg div.you-we section h3 {
   color: black;
   background: white;
   padding: 20px 0;
 }
-/* line 72, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 div.you-we-bg div.you-we section p {
   text-align: center;
   padding: 10px;
 }
-/* line 76, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 div.you-we-bg div.you-we section ul {
   padding-right: 10px;
 }
 
-/* line 82, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 section.who {
   background: white;
   padding: 0 0 30px 0;
   margin: 60px 0;
   box-shadow: 0px 0px 10px #bbb;
 }
-/* line 87, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 section.who h3 {
   color: white;
   background: black;
   padding: 20px 0;
   margin-top: 0;
 }
-/* line 93, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 section.who ul {
   margin-left: 80px;
 }
-/* line 95, ../sass/style.scss */
+/* line 98, ../sass/style.scss */
 section.who ul li {
   list-style-image: url(../images/dash.png);
   padding: 20px 40px 0 0;
 }
 
-/* line 101, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 div.why-bg {
   background: #dddddd;
 }
-/* line 103, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 div.why-bg div.why {
   padding: 60px 0;
 }
-/* line 106, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 div.why-bg div.why section.why h3 {
   background: white;
   padding: 20px 0;
   margin-top: 0;
 }
-/* line 111, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 div.why-bg div.why section.why p {
   padding: 10px 30px;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 footer {
   background: black;
   padding: 60px 0;
 }
-/* line 121, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 footer h2 {
+  font-family: "franchiseregular";
+  text-transform: uppercase;
   color: white;
   font-size: 72px;
+  letter-spacing: 2px;
 }
-/* line 125, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 footer p {
   text-align: center;
   color: white;
   font-size: 36px;
 }
-/* line 129, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 footer p a {
   color: #b4cd68;
 }
-/* line 132, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 footer p.by-line {
   margin-left: -200px;
-  font-family: "NeoRetroDrawFill";
+  font-family: "franchiseregular";
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
-/* line 135, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 footer p.by-line:after {
   content: "";
   display: inline;
   position: absolute;
   width: 210px;
-  height: 42px;
+  height: 46px;
   background: url(../images/logo.png) center bottom;
   background-repeat: no-repeat;
   padding-left: 10px;
@@ -198,6 +207,14 @@ footer p.by-line:after {
   font-family: 'NeoRetroDrawFill';
   src: url("../webfonts/NEORF___-webfont.eot");
   src: url("../webfonts/NEORF___-webfont.eot?#iefix") format("embedded-opentype"), url("../webfonts/NEORF___-webfont.woff") format("woff"), url("../webfonts/NEORF___-webfont.ttf") format("truetype"), url("../webfonts/NEORF___-webfont.svg#NeoRetroDrawRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'franchiseregular';
+  src: url("../webfonts/franchise-bold-webfont.eot");
+  src: url("../webfonts/franchise-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../webfonts/franchise-bold-webfont.woff") format("woff"), url("../webfonts/franchise-bold-webfont.ttf") format("truetype"), url("../webfonts/franchise-bold-webfont.svg#franchiseregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
