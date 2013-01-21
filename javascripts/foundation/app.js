@@ -20,6 +20,17 @@
     $.fn.placeholder                ? $('input, textarea').placeholder() : null;
   });
 
+  var breakpoint = $("<div class='top-bar-js-breakpoint'/>").appendTo("body");
+  function apprenticeshipHyphen() {
+    if ($(window).width() < breakpoint.width()) {
+      $('.apprentitle').text('Appren- ticeship');
+    } else {
+      $('.apprentitle').text('Apprenticeship');
+    }
+  }
+  apprenticeshipHyphen();
+  $(window).on('resize', apprenticeshipHyphen);
+
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
   // $('.block-grid.two-up>li:nth-child(2n+1)').css({clear: 'both'});
   // $('.block-grid.three-up>li:nth-child(3n+1)').css({clear: 'both'});
