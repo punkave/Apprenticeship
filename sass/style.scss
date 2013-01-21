@@ -25,11 +25,14 @@ h2 {
   span {
     font-size: .5em;
   }
+  @media (max-width: 530px) {
+    font-size: 48px;
+  }
 }
 
 h3 {
   font-family: "franchiseregular";
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
@@ -48,7 +51,7 @@ ul {
 section.what {
   padding-bottom: 60px;
   h3 {
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     background: black;
     padding: 20px 0;
@@ -125,8 +128,7 @@ footer {
     font-family: "franchiseregular";
     text-transform: uppercase;
     color: white;
-    font-size: 72px;
-    letter-spacing: 2px;
+    font-size: 96px;
   }
   p {
     text-align:center;
@@ -137,16 +139,13 @@ footer {
     }
     &.by-line {
       margin-left: -200px;
-      font-family: "franchiseregular";
-      font-weight: bold;
-      text-transform: uppercase;
       letter-spacing: 2px;
       &:after {
         content: "";
         display: inline;
         position: absolute;
         width: 210px;
-        height: 46px;
+        height: 42px;
         background: url(../images/logo.png) center bottom;
         background-repeat: no-repeat;
         padding-left: 10px;
