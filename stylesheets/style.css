@@ -151,23 +151,24 @@ footer h2 {
   text-transform: uppercase;
   color: white;
   font-size: 96px;
+  font-weight: normal;
 }
-/* line 135, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 footer p {
   text-align: center;
   color: white;
   font-size: 36px;
 }
-/* line 139, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 footer p a {
   color: #b4cd68;
 }
-/* line 142, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 footer p.by-line {
   margin-left: -200px;
   letter-spacing: 2px;
 }
-/* line 145, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 footer p.by-line:after {
   content: "";
   display: inline;
