@@ -133,16 +133,26 @@ footer {
     font-size: 96px;
     font-weight: normal;
   }
+  a.mail-link {
+    text-align: center;
+    width: auto;
+    text-indent: 99999px;
+    img {
+      width: 50px;
+      height: auto;
+    }
+  }
   p {
     text-align:center;
-    color: white;
     font-size: 36px;
+    color: $green;
     a {
       color: $green;
     }
     &.by-line {
       margin-left: -200px;
       letter-spacing: 2px;
+      color: white;
       &:after {
         content: "";
         display: inline;
