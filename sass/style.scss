@@ -133,6 +133,42 @@ footer {
     font-size: 96px;
     font-weight: normal;
   }
+  h4 {
+    color: $green;
+    font-size: 2em;
+    font-family: "SourceSansProRegular", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #333;
+    padding: 20px 0;
+    img {
+      width: 25px;
+      height: 25px;
+      display: inline;
+      transition: 2s ease transform;
+      -ms-transition: 2s ease transform;
+      -moz-transition: 2s ease transform;
+      -webkit-transition: 2s ease transform;
+
+    }
+    &.open {
+      img {
+        transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+    }
+  }
+  .footer-accordion-content {
+    background: #666;
+    padding: 20px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
   a.mail-link {
     text-align: center;
     width: auto;
@@ -150,6 +186,7 @@ footer {
       color: $green;
     }
     &.by-line {
+      margin-top: 60px;
       margin-left: -200px;
       letter-spacing: 2px;
       color: white;

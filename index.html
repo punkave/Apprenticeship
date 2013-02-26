@@ -16,7 +16,9 @@
 	<link rel="stylesheet" href="stylesheets/app.css">
   <link rel="stylesheet" href="stylesheets/style.css">
 
+  <script src="javascripts/foundation/jquery.js"></script>
 	<script src="javascripts/foundation/modernizr.foundation.js"></script>
+  <script src="javascripts/apprentice.js"></script>
 
 </head>
 <body>
@@ -82,7 +84,7 @@
         </section>
         <section class="row">
         <li class="six columns">Is interested in urbanism, knowledge creation, wellness, arts and culture, and mission-oriented companies</li>
-        <li class="six columns">Wants to work on authentic projects with real responsiblities</li>
+        <li class="six columns">Wants to work on authentic projects with real responsibilities</li>
         </section>
       </ul>
     </section>
@@ -109,8 +111,25 @@
     <div class="row footer">
       <section class="twelve columns">
         <h2>Sound good to you?</h2>
-        <p>Tell us why you'd like to apprentice with us:</p>
-        <p><a href="mailto:geoff@punkave.com" class="mail-link"><img src="images/new-mail.png"></a></p>
+        <div class="footer-accordion">
+        <h4 class="footer-accordion-title">Tell us why you'd like to apprentice with us <img src="/images/menu-toggle.png"></h4>
+        <div class="footer-accordion-content"><div id="wufoo-z7x3p3">
+          Fill out my <a href="http://punkaveapprentice.wufoo.com/forms/z7x3p3">online form</a>.
+          </div>
+          <script type="text/javascript">var z7x3p3;(function(d, t) {
+          var s = d.createElement(t), options = {
+          'userName':'punkaveapprentice',
+          'formHash':'z7x3p3',
+          'autoResize':true,
+          'height':'576',
+          'async':true,
+          'header':'show'};
+          s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+          s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { z7x3p3 = new WufooForm();z7x3p3.initialize(options);z7x3p3.display(); } catch (e) {}};
+          var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+          })(document, 'script');</script></div>
         <a href="http://punkave.com"><p class="by-line">Crafted with care at </p></a>
       </section>
     </div>

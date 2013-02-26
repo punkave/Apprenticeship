@@ -154,33 +154,71 @@ footer h2 {
   font-weight: normal;
 }
 /* line 136, ../sass/style.scss */
+footer h4 {
+  color: #b4cd68;
+  font-size: 2em;
+  font-family: "SourceSansProRegular", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background: #333;
+  padding: 20px 0;
+}
+/* line 146, ../sass/style.scss */
+footer h4 img {
+  width: 25px;
+  height: 25px;
+  display: inline;
+  transition: 2s ease transform;
+  -ms-transition: 2s ease transform;
+  -moz-transition: 2s ease transform;
+  -webkit-transition: 2s ease transform;
+}
+/* line 157, ../sass/style.scss */
+footer h4.open img {
+  transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+/* line 165, ../sass/style.scss */
+footer .footer-accordion-content {
+  background: #666;
+  padding: 20px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 172, ../sass/style.scss */
 footer a.mail-link {
   text-align: center;
   width: auto;
   text-indent: 99999px;
 }
-/* line 140, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 footer a.mail-link img {
   width: 100px;
   height: auto;
 }
-/* line 145, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 footer p {
   text-align: center;
   font-size: 36px;
   color: #b4cd68;
 }
-/* line 149, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 footer p a {
   color: #b4cd68;
 }
-/* line 152, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 footer p.by-line {
+  margin-top: 60px;
   margin-left: -200px;
   letter-spacing: 2px;
   color: white;
 }
-/* line 156, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 footer p.by-line:after {
   content: "";
   display: inline;
