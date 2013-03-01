@@ -158,7 +158,7 @@ footer h4 {
   color: #b4cd68;
   font-size: 2em;
   font-family: "SourceSansProRegular", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
-  width: 70%;
+  width: 90%;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -186,39 +186,40 @@ footer h4.open img {
 footer .footer-accordion-content {
   background: #666;
   padding: 20px;
-  width: 70%;
+  width: 90%;
   display: block;
   margin: 0 auto;
+  max-height: 600px;
 }
-/* line 172, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 footer a.mail-link {
   text-align: center;
   width: auto;
   text-indent: 99999px;
 }
-/* line 176, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 footer a.mail-link img {
   width: 100px;
   height: auto;
 }
-/* line 181, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 footer p {
   text-align: center;
   font-size: 36px;
   color: #b4cd68;
 }
-/* line 185, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 footer p a {
   color: #b4cd68;
 }
-/* line 188, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 footer p.by-line {
   margin-top: 60px;
   margin-left: -200px;
   letter-spacing: 2px;
   color: white;
 }
-/* line 193, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 footer p.by-line:after {
   content: "";
   display: inline;

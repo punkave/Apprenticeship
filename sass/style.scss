@@ -137,7 +137,7 @@ footer {
     color: $green;
     font-size: 2em;
     font-family: "SourceSansProRegular", "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
-    width: 70%;
+    width: 90%;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -165,9 +165,10 @@ footer {
   .footer-accordion-content {
     background: #666;
     padding: 20px;
-    width: 70%;
+    width: 90%;
     display: block;
     margin: 0 auto;
+    max-height: 600px;
   }
   a.mail-link {
     text-align: center;
