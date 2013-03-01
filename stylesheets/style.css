@@ -120,32 +120,36 @@ section.who ul li {
   list-style-image: url(../images/dash.png);
   padding: 20px 40px 0 0;
 }
+/* line 108, ../sass/style.scss */
+section.who p {
+  text-align: center;
+}
 
-/* line 109, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 div.why-bg {
   background: #dddddd;
 }
-/* line 111, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 div.why-bg div.why {
   padding: 60px 0;
 }
-/* line 114, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 div.why-bg div.why section.why h3 {
   background: white;
   padding: 20px 0;
   margin-top: 0;
 }
-/* line 119, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 div.why-bg div.why section.why p {
   padding: 10px 30px;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 footer {
   background: black;
   padding: 60px 0;
 }
-/* line 129, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 footer h2 {
   font-family: "franchiseregular";
   text-transform: uppercase;
@@ -153,7 +157,7 @@ footer h2 {
   font-size: 96px;
   font-weight: normal;
 }
-/* line 136, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 footer h4 {
   color: #b4cd68;
   font-size: 2em;
@@ -165,7 +169,7 @@ footer h4 {
   background: #333;
   padding: 20px 0;
 }
-/* line 146, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 footer h4 img {
   width: 25px;
   height: 25px;
@@ -175,14 +179,14 @@ footer h4 img {
   -moz-transition: 2s ease transform;
   -webkit-transition: 2s ease transform;
 }
-/* line 157, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 footer h4.open img {
   transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
-/* line 165, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 footer .footer-accordion-content {
   background: #666;
   padding: 20px;
@@ -191,35 +195,35 @@ footer .footer-accordion-content {
   margin: 0 auto;
   max-height: 600px;
 }
-/* line 173, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 footer a.mail-link {
   text-align: center;
   width: auto;
   text-indent: 99999px;
 }
-/* line 177, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 footer a.mail-link img {
   width: 100px;
   height: auto;
 }
-/* line 182, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 footer p {
   text-align: center;
   font-size: 36px;
   color: #b4cd68;
 }
-/* line 186, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 footer p a {
   color: #b4cd68;
 }
-/* line 189, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 footer p.by-line {
   margin-top: 60px;
   margin-left: -200px;
   letter-spacing: 2px;
   color: white;
 }
-/* line 194, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 footer p.by-line:after {
   content: "";
   display: inline;
