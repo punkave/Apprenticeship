@@ -89,9 +89,11 @@ div.you-we-bg {
 }
 section.who {
   background: white;
-  padding: 0 0 30px 0;
+  padding: 0 0 30px 0 !important;
   margin: 60px 0;
   box-shadow: 0px 0px 10px #bbb;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   h3 {
     color: white;
     background: black;
